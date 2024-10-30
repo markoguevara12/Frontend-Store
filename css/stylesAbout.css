@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "CircularStd",sans-serif ;
+}
+@font-face {
+    font-family: 'CircularStd';
+    src: url(/public/fonts/CircularStd-Bold.woff2) format("woff2");
+    font-weight:700;
+    font-style: normal;
+    font-display: swap;
+  }
+  @font-face {
+    font-family: 'CircularStd';
+    src: url(/public/fonts/CircularStd-Black.woff2) format("woff2");
+    font-weight:900;
+    font-style: normal;
+    font-display: swap;
+  }
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #902ab1;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    text-align: center;
+    margin: 20px 0;
+    width: 100%;
+}
+#about{
+    color:#ddb33c ;
+}
+header h2 {
+    font-size: 2.5em;
+    color: #ddb33c;
+}
+header h1 {
+    font-size: 2.5em;
+    color: #ffffff;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    margin-top: 10px;
+    background-color: #80159d;
+}
+
+nav a {
+    color: #fff;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+h2 {
+    color: #ddb33c;
+    font-size: 1.8em;
+    margin: 20px 0;
+    text-align: center;
+}
+
+
+
+.nosotros {
+    padding: 20px;
+    text-align: center;
+}
+
+.nosotros h2 {
+    color: #ffd700;
+    font-size: 28px;
+}
+
+.nosotros .content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.nosotros .text {
+    max-width: 500px;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.nosotros .image img {
+    max-width: 300px;
+    border-radius: 8px;
+}
+
+.porque-comprar {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.porque-comprar h2 {
+    color: #ffd700;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.features {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.feature {
+    background-color: #80159d;
+    padding: 20px;
+    border-radius: 10px;
+    width: 200px;
+    text-align: center;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.feature .icon {
+    font-size: 36px;
+    color: #ff69b4;
+}
+
+.feature h3 {
+    color: #ffd700;
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.feature p {
+    font-size: 14px;
+    color: #fff;
+}
